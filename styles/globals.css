@@ -4,14 +4,14 @@
 }
 
 header{
-  height: 100px;
+  height: 120px;
   width: 100%;
   background-color: rgba(217, 217, 217, 0.7);
 }
 
 main{
   background-color: white;
-  margin: 0 20px;
+  margin: 0 60px;
 }
 
 .logo{
@@ -73,12 +73,12 @@ h1{
 }
 
 .slide{
-  opacity: 0;
+  z-index: 10;
   transition: all 1s;
 }
 
 .active{
-  opacity: 1;
+  z-index: 11;
   transform: scale(1.09);
 }
 
@@ -89,4 +89,17 @@ h1{
 footer{
   text-align: -webkit-center;
   background-color: #e7e7e7;
+}
+
+.whatsApp{
+  font-size: 40px;
+  color: white;
+  background-color: #00de4c;
+  border-radius: 10px;
+  padding: 6px 6px 0px 6px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 100;
+  border: 2px solid black;
 }
