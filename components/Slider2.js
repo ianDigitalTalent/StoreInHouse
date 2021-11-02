@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
-import {FaArrowCircleRight,FaArrowCircleLeft} from 'react-icons/fa'
+import {FaChevronRight,FaChevronLeft} from 'react-icons/fa'
 
 export const Slider2 = ({slides}) => {
 const SliderData = [
@@ -36,8 +36,8 @@ if(!Array.isArray(SliderData) || lengthArray <=0 ){
     return (
         <>
         <div className="slider">
-            <FaArrowCircleLeft className="left-arrow" onClick={prevSlide}/>
-            <FaArrowCircleRight className="right-arrow" onClick={nextSlide}/>
+            <FaChevronLeft className="left-arrow" onClick={prevSlide}/>
+            <FaChevronRight className="right-arrow" onClick={nextSlide}/>
            {SliderData.map((slide,index)=>{
                 return ( 
                     <div className={index === current ? 'slide-active' : 'slide' } key={index}>

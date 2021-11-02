@@ -44,9 +44,9 @@ h1{
 
 .right-arrow{
   position: absolute;
-  right: 32px;
-  font-size: 2rem;
-  color: rgba(0, 0, 0, 0.212);
+  right: -50px;
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.8);
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -59,9 +59,9 @@ h1{
 
 .left-arrow{
   position: absolute;
-  left: 32px;
-  font-size: 2rem;
-  color: rgba(0, 0, 0, 0.212);
+  left: -50px;
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.7);
   z-index: 10;
   cursor: pointer;
   user-select: none;
