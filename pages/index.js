@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image';
 import Header from "../components/Header"
+import WpButton from '../components/WpButton';
 import  Slider1  from "../components/Slider1"
 import  Slider2  from "../components/Slider2"
 import  Slider3  from "../components/Slider3"
 import Footer from '../components/Footer';
-import { FaWhatsapp } from 'react-icons/fa';
 
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <Header/>
       <Image src="/principal.png" alt="banner" width={2500} height={1200}></Image>
-      <button  className="whatsApp"><FaWhatsapp></FaWhatsapp></button>
+      <WpButton/>
       <main>
         <p className="presentacion">
           <Image src="/presentacion.png" alt="presentacion" width={2500} height={1200}></Image>
