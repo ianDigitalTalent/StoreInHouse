@@ -1,12 +1,18 @@
-import Image from 'next/image';
+import Image from "next/image";
 
-function Header(){
-    return(
+function Header() {
+    return (
         <header>
-            <p className="logo"><Image src="/logo.png" alt="Logo" width={200} height={120} ></Image></p>
+            <div className="logo">
+                <Image
+                    src="/logo.png"
+                    alt="Logo"
+                    width={180}
+                    height={100}
+                ></Image>
+            </div>
         </header>
-
-    )
+    );
 }
 
 export default Header;
