@@ -1,11 +1,18 @@
-import Image from 'next/image';
+import Image from "next/image";
 
-function Footer(){
-    return(
+function Footer() {
+    return (
         <footer>
-            <p className="imagen-footer"><Image src="/footer.png" alt="Footer" width={2326} height={647} ></Image></p>
+            <div className="imagen-footer">
+                <Image
+                    src="/footer.png"
+                    alt="Footer"
+                    width={2326}
+                    height={647}
+                ></Image>
+            </div>
         </footer>
-    )
+    );
 }
 
 export default Footer;
