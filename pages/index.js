@@ -1,11 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
-import Footer from "../components/Footer";
 import Header from "../components/Header";
+import WpButton from "../components/WpButton";
 import Slider1 from "../components/Slider1";
 import Slider2 from "../components/Slider2";
 import Slider3 from "../components/Slider3";
-import WpButton from "../components/WpButton";
+import Footer from "../components/Footer";
+import LogoFooter from "../components/LogoFooter";
 
 export default function Home() {
     return (
@@ -53,6 +54,7 @@ export default function Home() {
                 </div>
             </main>
             <Footer />
+            <LogoFooter/>
         </>
     );
 }

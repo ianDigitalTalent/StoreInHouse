@@ -106,6 +106,26 @@ footer {
     cursor: pointer;
 }
 
+.displayLogoFooter{
+    display: flex;
+    background-color: #e7e7e7;
+    text-align: center;
+    justify-content: center;
+}
+
+.textoLogoFooter{
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(103,103,103);
+    position: relative;
+    top: 20px;
+}
+
+.logoFooter{
+    width: 80px;
+    text-align: center;
+}
+
 @media (min-width: 768px) {
     .imagen-footer {
         width: 50%;
